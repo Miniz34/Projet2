@@ -1,35 +1,84 @@
-body
+/*------- Travail restant --*/
 
-{
-    box-sizing: border-box;
-}
 
-#main_wrapper
 
-{
+/*-- appliquer les couleurs des instructions (ne fonctionne pas?)--*/
+/*-- Trouver bon font awesome #populaire--*/
+/*-- Overflow texte cartes (surtout #populaires) --*/
+/*-- changer couleurs étoiles --*/
+/*-- bordure bleue header nav augmenter l'espace --*/
+
+
+body {
     font-family: 'Raleway', serif, sans-serif;
-    font-size: 10px;    
-    width: 920px;
-    display: flex;
-    flex-direction: column;
-    margin: auto
+    font-size: 10px;
+    height: 100%;
+    width: 1200px;
+    background-color: rgb(245, 245, 245);
+    margin: auto;
+    
 }
 
-#main_header
+
+
+
+/*-- En-tête de page --*/
+
+header {
+    font-family: 'Raleway';
+    margin-bottom: 40px;
+    width: 1200px;
+    height: 100%;
+    margin: 0% 0% 0% 10%;
+}
+
+header img {
+    width: 100px;
+    height: auto;
+}
+
+
+/*-- travailler placement --*/
+
+#filtres a 
+
 {
+    text-decoration: none;
+    
+}
+
+#filtres a:hover
+
+{
+    color: green;
+    text-decoration: underline
+}
+
+#logo {
     display: flex;
     justify-content: space-between;
+    height: 150px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-top: 2%;
 }
-
-
 
 #main_logo
 
 {
-    height: 40px;
-    padding-top: 20px;
+    height: 90px;
 }
 
+
+
+.nav_head li
+
+{
+    
+    display: inline-block;
+    
+        
+}
 
 nav a
 
@@ -57,45 +106,68 @@ nav a:hover
     text-decoration:none;
 
   }
+ 
 
-  h1
+header p {
+    color: grey;
+}
 
-  {
-      margin-bottom: -8px;
-  }
+form .loca 
 
+{
+    background-color: rgb(216, 215, 215);
+    border-radius: 20px 0px 0px 20px;
+    padding-top: 8px;
+    width: 26px;
+}
 
-  form {
+form
 
+{
     display: flex;
-    flex-direction: row;
-    margin-bottom: 20px
+    
+}
 
-
-  }
-
-  #localisation {
+#localisation {
     
     
 
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 15px;
-    padding-top: 4px;
-  }
-  
-  form .loca 
-
-{
-    background-color: rgb(216, 215, 215);
     border-radius: 20px 0px 0px 20px;
-    padding-top: 8px;
-    width: 35px;
+    
     
 }
 
-  #submit {
+#search {
+
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0px 0px 0px;
+       
+    
+
+
+
+}
+
+
+#search p
+
+{
+
+   opacity: 0;
+}
+#search_form {
+    box-sizing: border-box;
+    height: 40px;
+    
+   
+    
+}
+
+#submit {
     border: solid blue 1px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -108,97 +180,374 @@ nav a:hover
 
 }
 
+#filtres {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+    margin-top: 20px;
+    width: 70%;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 22px;
 
-
-
-
-
-  .filtres
-
-  {
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-start;
-      align-items: center;
-      margin-bottom: 20px;
-  }
-
-  .filtre
-
-  {
-      display: inline-block;
-        border: 1px solid black;
-      font-weight: bold;
-      border: 2px solid lightblue;
-      border-radius: 40px;
-      margin-left: 10px;
-      
-      
-      
-      
-  }
-
-  .icone
-  {
-      font-size: 25px;
-      margin-left: -10px;
-      margin-top: -5px;
-      margin-bottom: -5px;
-
-  }
-
-  .bleuclair
-
-  {
-      color: lightblue
-  }
-
-  .fa-inverse.bleu
-
-  {
-      font-size: 20px;
-  }
-
-  .bleu 
-
-  {
-      color: blue
-  }
-
-  .filtre_texte
-
-  {
-      margin-right: 20px;
-      
-  }
-
-
-  #info
-
-  {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-  }
-.icone2
-
-{
-    font-size: 10px;
-   
 }
 
-  .blanc
+.logo {
+    display: flex;
+    align-items: center;
+    border: 1px grey solid;
+    height: 40px;
+    border-radius: 40px;
+    padding: 3px;
+    padding-left: 0px;
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: 18px;
 
-  {
-      color: white;
-  }
-
-  .bleu2
-
-  {
-      font-size: 10px;
-      color: blue
-  }
 
 
-  
+}
+
+
+#eco_logo {
+    background-color: rgb(134, 204, 204);
+    border: rgb(134, 204, 204) 1px solid;
+    padding: 15px;
+    border-radius: 40px;
+
+}
+
+#fam_logo {
+    background-color: rgb(134, 204, 204);
+    border: rgb(134, 204, 204) 1px solid;
+    padding: 15px;
+    border-radius: 40px;
+
+}
+
+#rom_logo {
+    background-color: rgb(134, 204, 204);
+    border: rgb(134, 204, 204) 1px solid;
+    padding: 15px;
+    border-radius: 40px;
+}
+
+#pet_logo {
+    background-color: rgb(134, 204, 204);
+    border: rgb(134, 204, 204) 1px solid;
+    padding: 15px;
+    border-radius: 40px;
+}
+
+
+
+span a:hover {
+    color: purple;
+}
+
+/*-- Ajouter bordure Logo informations --*/
+
+#info {
+    display: flex;
+    align-content: center;
+    padding-right: 20px;
+}
+
+.texte {
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+
+/*-- Contenu principal --*/
+
+#conteneur {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(245, 245, 245);
+    width: 1200px;
+    height: 100%;
+    margin: 0% 0% 0% 10%;
+    ;
+
+    /*-- Onglet Hébergements --*/
+
+}
+
+#populaires {
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    background-color: rgb(216, 215, 215);
+    align-items: center;
+    margin-right: 3%;
+    border-radius: 20px;
+
+
+
+}
+
+h2 {
+    font-size: 1.7em;
+}
+
+section h2 {
+    margin-left: 4%;
+}
+
+/*-- Rapprocher h3 texte de l'image ; sûrement meilleure option que line-height--*/
+
+h3 {
+    line-height: 1em;
+}
+
+.ratingpop {
+    margin-top: 45px;
+}
+
+section a {
+    text-decoration: none;
+    color: black;
+}
+
+#all_hebergements {
+    background-color: rgb(216, 215, 215);
+    width: 58%;
+    padding-right: 4%;
+    padding-bottom: 2%;
+    margin-left: 3%;
+    border-radius: 20px;
+}
+
+#all_hebergements h2 {
+    margin-left: 4%;
+}
+
+#afficherplus {
+    margin-top: 20px;
+
+}
+
+
+
+#hebergements_liste {
+    margin-left: 4%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+
+.pic1{
+width: 29%;
+margin-right: 5px;
+background-color: white;
+border: white 5px solid;
+border-radius: 20px;
+margin-bottom: 2%;
+
+
+}
+
+
+
+
+#hebergements_liste img {
+    border: solid white 1px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.rating {
+    font-size: 1.6em;
+
+}
+
+/*-- Onglet populaires --*/
+
+
+
+#populaire_liste {
+    margin-left: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    
+
+
+
+
+}
+
+#pop_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+}
+
+#pop_title .fas {
+    text-align: center;
+}
+
+#populaire_liste h3 {
+    font-size: 0.5;
+}
+
+#conteneur img {
+    width: 100%;
+    max-height: 85px;
+    object-fit: cover;
+
+}
+
+#populaires img {
+
+    width: 90px;
+    height: 140px;
+    border: 1px white solid;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+
+
+.pic2
+
+{
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 8%;
+    background-color: white;
+    border: white 5px solid;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+
+
+#populaires a {
+    text-decoration: none;
+    color: black;
+}
+
+#all_hebergements a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/*-- Onglet activites --*/
+
+#activites {
+    margin-top: 5%;
+    width: 1200px;
+    margin-left: 10%;
+
+}
+
+
+
+#activites_liste {
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+
+
+
+}
+
+.solo_card {
+
+    height: 380px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+
+}
+
+
+.duo_card {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 380px;
+}
+
+.pic3 {
+    border: white 1px solid;
+    border-radius: 20px;
+    background-color: white;
+    
+}
+
+
+#activites img
+
+{
+    object-fit: cover;
+}
+
+
+
+#activites h3 {
+    margin-left: 20px
+}
+
+#activites a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*-- Pied de page : Choisir entre ul et p, peut être insérer lien --*/
+
+footer {
+    width: 100%;
+    margin-left: 10%;
+    margin-bottom: 1%;
+    background-color: rgb(216, 215, 215);
+    display: flex;
+}
+
+#propos {
+    margin-right: 16%
+}
+
+#nos_hebergements {
+    margin-right: 16%;
+}
+
+footer h2 {
+    padding-left: 20%
+}
+
+footer ul {
+    list-style: none;
+    font-size: 1.3em;
+}
+
+footer p {
+    font-size: 1.3em;
+    padding-left: 20%
+}
+
+
