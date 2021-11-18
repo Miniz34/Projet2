@@ -22,6 +22,8 @@ h3
     font-size: 1.2em;
 }
 
+/*-- Header + Titre --*/
+
 #main_header
 {
     display: flex;
@@ -65,18 +67,19 @@ nav a:hover
 
   }
 
-  #titre h1
+  h1
 
   {
       margin-bottom: -8px;
   }
 
+/*-- Recherche --*/
 
   form {
 
     display: flex;
     flex-direction: row;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 
 
   }
@@ -116,7 +119,7 @@ nav a:hover
 }
 
 
-
+/*-- Filtres --*/
 
 
 
@@ -208,10 +211,15 @@ nav a:hover
   }
 
 
+/*-- Hébergements --*/
+
+
   #conteneur {
     background-color: white;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 45px;
+    margin-top: 30px;
   }
 
   .fond_heb
@@ -311,7 +319,7 @@ img.image1
 
 
 
-
+/*-- Populaires --*/
 
 
 
@@ -405,6 +413,11 @@ img.image2 {
 {
     
         margin-top: 2px;
+
+
+
+
+ /*-- Activites --*/
     
 }
 
@@ -449,4 +462,41 @@ img.image2 {
 
 #activites h3 {
     margin-left: 20px
+}
+
+/*-- Footer --*/
+
+footer {
+    width: 980px;
+    background-color: rgb(216, 215, 215);
+    display: flex;
+    margin-bottom: 2%;
+    margin: auto;
+    font-family: 'Raleway', serif, sans-serif;
+    font-size: 10px;    
+}
+
+#propos {
+    margin-right: 12%;
+    margin-left: 4%;
+    margin-bottom: 20px;
+}
+
+#nos_hebergements {
+    margin-right: 12%;
+    
+}
+
+footer h2
+
+{
+    margin-bottom: 25px;
+}
+
+
+
+footer p {
+    font-size: 1.3em;
+    margin-top: -5px
+    
 }
