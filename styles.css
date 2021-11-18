@@ -2,6 +2,7 @@ body
 
 {
     box-sizing: border-box;
+    background-color: rgb(245, 245, 245);;
 }
 
 #main_wrapper
@@ -221,8 +222,16 @@ nav a:hover
     flex-direction: column;
     flex-wrap: wrap;
     width: 65%;
+    border: 1px rgb(218, 216, 216) solid;
+    border-radius: 20px;
 
 
+  }
+
+  .fond_heb h2
+
+  {
+      margin-left: 20px;
   }
 
   #hebergement_liste
@@ -281,7 +290,7 @@ img.image1
     object-fit: cover;
     border: solid white 1px;
     border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-right-radius: 10px;
 
 
 }
@@ -313,6 +322,14 @@ img.image1
     display: flex;
     flex-direction: column;
     background-color: rgb(218, 216, 216);
+    border: 1px solid rgb(218, 216, 216);
+    border-radius: 10px;
+}
+
+.populaire h2
+
+{
+    margin-left: 20px;
 }
 
 #populaire_liste
@@ -348,7 +365,7 @@ margin-right: 5px;
 background-color: white;
 border: white 5px solid;
 border-radius: 20px;
-margin-bottom: 2%;
+margin-bottom: 4%;
 display: flex;
 
 
@@ -389,4 +406,47 @@ img.image2 {
     
         margin-top: 2px;
     
+}
+
+#activites_liste {
+    width: 100%;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+
+
+
+}
+
+
+.duo_card {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 310px;
+    
+}
+
+.pic3 {
+    border: white 1px solid;
+    border-radius: 20px;
+    background-color: white;
+    
+}
+
+
+#activites img
+
+{
+    object-fit: cover;
+}
+
+
+
+#activites h3 {
+    margin-left: 20px
 }
