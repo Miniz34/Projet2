@@ -20,6 +20,7 @@ h3
 
 {
     font-size: 1.2em;
+
 }
 
 /*-- Header + Titre --*/
@@ -289,7 +290,7 @@ nav a:hover
 
 
 .pic1{
-    width: 149px;  
+    width: 165px;  
     height: 120px;
 margin-right: 5px;
 background-color: white;
@@ -297,6 +298,7 @@ border: white 5px solid;
 border-radius: 10px;
 margin-bottom: 2%;
 margin-bottom: 15px;
+
 
 
 
@@ -311,12 +313,12 @@ margin-bottom: 15px;
     margin-bottom: -10px;
 }
 
-.pic1 p
+
+.pic1 h3, p, span
 
  {
-     margin-bottom: 5px;
+     margin-left: 5px;
  }
-
 
 a
 
@@ -453,6 +455,7 @@ img.image2 {
 {
     
         margin-top: 2px;
+        margin-left: 5px
 
 
 
