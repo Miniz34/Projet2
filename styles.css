@@ -35,8 +35,9 @@ h3
 #main_logo
 
 {
-    height: 40px;
-    padding-top: 20px;
+    height: 30px;
+    padding-top: 35px;
+    padding-left: 20px
 }
 
 
@@ -80,6 +81,7 @@ nav a:hover
     display: flex;
     flex-direction: row;
     margin-bottom: 20px;
+    
 
 
   }
@@ -101,11 +103,19 @@ nav a:hover
 
 {
     background-color:rgb(231, 231, 231);
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 40px 0px 0px 40px;
     padding-top: 8px;
     width: 35px;
     
+    
+}
 
+#search_form
+
+{
+
+    width: 150px;
+    border: rgb(231, 231, 231) 1px solid;
     
 }
 
@@ -115,9 +125,10 @@ nav a:hover
     border-bottom-right-radius: 10px;
     color: white;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 13px;
     box-sizing: border-box;
     height: 40px;
+    width: 100px
    
 
 }
@@ -146,7 +157,7 @@ nav a:hover
 
   {
       display: inline-block;
-      border: 2px solid rgb(222, 235, 255);
+      border: 2px solid rgb(231, 231, 231);
       border-radius: 40px;
       margin-left: 10px;
       
@@ -197,25 +208,40 @@ nav a:hover
       flex-direction: row;
       align-items: center;
   }
+
+ 
 .icone2
 
 {
     font-size: 10px;
+    margin-right: 5px;
+    display: inline-block;
    
 }
 
   .blanc
 
   {
-      color: rgb(222, 235, 255)
+      
+      font-size: 16px;
+      border: rgb(231, 231, 231) 2px solid;
+      color: rgb(242, 242, 242);
+      width: 16px;
+      border-radius: 50%;
+      
+      
+      
   }
 
   .bleu2
 
   {
-      font-size: 10px;
-      color: blue
-  }
+      font-size: 9px;
+      color: blue;
+      margin-left: -3px
+    
+    ;
+}
 
 
 /*-- Hébergements --*/
@@ -238,7 +264,7 @@ nav a:hover
     flex-wrap: wrap;
     width: 65%;
     border: 1px rgb(231, 231, 231) solid;
-    border-radius: 20px;
+    border-radius: 10px;
 
 
   }
@@ -247,6 +273,7 @@ nav a:hover
 
   {
       margin-left: 20px;
+      margin-top: 30px;
   }
 
   #hebergement_liste
@@ -267,9 +294,10 @@ nav a:hover
 margin-right: 5px;
 background-color: white;
 border: white 5px solid;
-border-radius: 20px;
+border-radius: 10px;
 margin-bottom: 2%;
 margin-bottom: 15px;
+
 
 
 
@@ -304,7 +332,7 @@ img.image1
     max-height: 70px;
     object-fit: cover;
     border: solid white 1px;
-    border-top-left-radius: 20px;
+    border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 
 
@@ -316,7 +344,8 @@ img.image1
 
 {
 
-    margin-top: 10px
+    margin-top: -20px;
+    margin-bottom: 20px;
      
 }
 
@@ -329,12 +358,13 @@ img.image1
 .populaire
 
 {
-    width: 28%;
+    width: 32%;
     display: flex;
     flex-direction: column;
     background-color: rgb(231, 231, 231);
     border: 1px solid rgb(231, 231, 231);
     border-radius: 10px;
+    padding-top: 20px
 }
 
 .populaire img
@@ -363,6 +393,7 @@ img.image1
 {
     display: flex;
     justify-content: space-between;
+    
 
 }
 
@@ -376,12 +407,12 @@ img.image1
 .pic2
 
 {
-    width: 210px;
+    width: 230px;
     height: 90px;
 margin-right: 5px;
 background-color: white;
 border: white 5px solid;
-border-radius: 20px;
+border-radius: 10px;
 margin-bottom: 4%;
 display: flex;
 
@@ -394,8 +425,8 @@ img.image2 {
 
     width: 90px;
     border: 1px white solid;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 
 }
 
@@ -454,9 +485,10 @@ img.image2 {
 }
 
 .pic3 {
-    border: white 1px solid;
+    border: rgb(242, 242, 242) 1px solid;
     border-radius: 20px;
     background-color: white;
+    border-width:0ch;
     
 }
 
@@ -471,7 +503,9 @@ img.image2 {
 
 
 #activites h3 {
-    margin-left: 20px
+    margin-left: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
 }
 
 /*-- Footer --*/
@@ -480,10 +514,11 @@ footer {
     width: 980px;
     background-color: rgb(231, 231, 231);
     display: flex;
-    margin-bottom: 2%;
+    height: 130px;
     margin: auto;
     font-family: 'Raleway', serif, sans-serif;
-    font-size: 10px;    
+    font-size: 10px;   
+     
 }
 
 #propos {
