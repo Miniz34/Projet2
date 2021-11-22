@@ -49,14 +49,6 @@ nav a
     
 }
 
-nav a:hover
-
-{
-
-
-    border-top: 3px solid blue;
-}
-
 
 .nav_head {
     
@@ -485,6 +477,7 @@ img.image2 {
     justify-content: space-between;
     height: 310px;
     
+    
 }
 
 .pic3 {
@@ -492,6 +485,7 @@ img.image2 {
     border-radius: 20px;
     background-color: white;
     border-width:0ch;
+    
     
 }
 
@@ -547,4 +541,117 @@ footer p {
     font-size: 1.3em;
     margin-top: -5px
     
+}
+
+
+
+@media all and (min-width: 992px)
+
+{
+    nav a:hover
+
+    {
+        border-top: 3px solid blue;
+    }
+}
+
+
+@media all and (max-width: 768px)
+
+{
+
+    #main_wrapper
+
+    {
+       margin: auto;
+    }
+
+    #main_header
+
+    {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #main_logo
+
+    {
+        
+        width: 123px;
+        height: 61px;
+        
+    }
+
+    .nav_head
+
+    {
+        font-size: 3em;
+        width: 748px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly
+    }
+
+    nav a:hover
+
+    {
+        border-bottom: 3px solid blue;
+    }
+
+
+    h1
+
+    {
+        font-size: 5em;
+    }
+
+    form
+
+    {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+
+    .filtres
+
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    #conteneur
+
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fond_heb
+
+    {
+        order: 2;
+        width: 100%;
+    }
+
+    .pic1
+
+    {
+        width: 450px;
+        
+    }
+
+    #activites_liste
+
+    {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+
 }
