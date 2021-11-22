@@ -65,6 +65,12 @@ nav a
 
   {
       margin-bottom: -8px;
+      font-size: 1.7em;
+  }
+
+  p
+  {
+      font-size: 1.1em;
   }
 
 /*-- Recherche --*/
