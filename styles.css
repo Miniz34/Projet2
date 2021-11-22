@@ -464,10 +464,19 @@ img.image2 {
     justify-content: space-between;
     flex-wrap: nowrap;
 
+}
 
 
+.solo_card
+
+    {
+background-color: white;
+border: rgb(242, 242, 242) solid 1px;
+border-radius: 20px;
+height: 300px
 
 }
+
 
 
 .duo_card {
@@ -475,17 +484,65 @@ img.image2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 310px;
+    height: 300px;
     
     
 }
 
+.double_carte1
+
+{
+    border: rgb(242, 242, 242) solid 1px;
+border-radius: 20px;
+background-color: white;
+height: 160px;
+
+}
+
+.double_carte2
+
+{
+    border: rgb(242, 242, 242) solid 1px;
+border-radius: 20px;
+background-color: white;
+height: 115px;
+
+}
+
+
+
+
 .pic3 {
-    border: rgb(242, 242, 242) 1px solid;
-    border-radius: 20px;
-    background-color: white;
+    border-top: rgb(242, 242, 242) 1px solid;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: green;
     border-width:0ch;
+    height: 265px;
+    width: 210px;
     
+    
+}
+
+.pic4 {
+
+    
+    height: 125px;
+    width: 210px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+   
+
+
+}
+
+.pic5
+
+{
+    height: 80px;
+    width: 210px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
     
 }
 
@@ -638,20 +695,59 @@ footer p {
         width: 100%;
     }
 
-    .pic1
-
+    .pic3
     {
-        width: 450px;
-        
+        height: 110px;
     }
 
-    #activites_liste
+    .pic4
+    {
+        height: 110px;
+    }
+
+
+    .pic5
 
     {
+        height: 110px;
+    }
+
+    .double_carte1
+
+    {
+    height: 120px;
+    }
+
+
+
+
+    .double_carte2
+
+    {
+        height: 120px;
+        }
+    
+
+    .solo_card
+
+    {
+        height: 120px
+
+    }
+
+    
+
+
+    #activites_liste {
+        width: 100%;
+        padding-bottom: 20px;
         display: flex;
         flex-direction: column;
-        
+        justify-content: space-between;
+        flex-wrap: wrap
+    
     }
+
 
 
 }
