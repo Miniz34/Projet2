@@ -473,21 +473,14 @@ img.image2 {
 background-color: white;
 border: rgb(242, 242, 242) solid 1px;
 border-radius: 20px;
-height: 300px
+height: 300px;
+margin-bottom: 24px;
 
 }
 
 
 
-.duo_card {
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 300px;
-    
-    
-}
 
 .double_carte1
 
@@ -496,6 +489,7 @@ height: 300px
 border-radius: 20px;
 background-color: white;
 height: 160px;
+margin-bottom: 24px;
 
 }
 
@@ -506,6 +500,7 @@ height: 160px;
 border-radius: 20px;
 background-color: white;
 height: 115px;
+margin-bottom: 24px;
 
 }
 
@@ -695,58 +690,38 @@ footer p {
         width: 100%;
     }
 
-    .pic3
-    {
-        height: 110px;
-    }
-
-    .pic4
-    {
-        height: 110px;
-    }
-
-
-    .pic5
+    #hebergement_liste
 
     {
-        height: 110px;
-    }
-
-    .double_carte1
-
-    {
-    height: 120px;
-    }
-
-
-
-
-    .double_carte2
-
-    {
-        height: 120px;
-        }
-    
-
-    .solo_card
-
-    {
-        height: 120px
-
-    }
-
-    
-
-
-    #activites_liste {
-        width: 100%;
-        padding-bottom: 20px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        flex-wrap: wrap
-    
     }
+
+   #activites_liste
+
+   {
+       display: flex;
+       flex-direction: column;
+   }
+
+   .solo_card, .double_carte1, .double_carte2
+   {
+       height: 160px;
+   }
+
+   .pic3, .pic4, .pic5
+
+   {
+       height: 125px;
+   }
+
+   footer 
+   {
+       display: flex;
+       flex-direction: column;
+       height: 100%;
+       
+   }
 
 
 
