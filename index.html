@@ -3,81 +3,93 @@
 
 
 <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+   
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
     <script src="https://kit.fontawesome.com/0c06550e73.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap">
     <link rel="stylesheet" href="styles.css">
+
+    
+    
+    
+    
+
     <title>Booki - Hébergement pour vacances de rêve ! </title>
 </head>
 
 <body>
-
+    <!-- En-tête -->
     <div id="main_wrapper">
         <header id="main_header">
             <img src="images/logo/Booki.png" id="main_logo">
 
             <nav class="nav_head">
 
-                <a href="#Hebergements" class="lien_nav">Hébergements</a>
-                <a href="#Activites" class="lien_nav">Activités</a>
+                <a href="#hebergements_titre" class="lien_nav">Hébergements</a>
+                <a href="#act_title" class="lien_nav">Activités</a>
 
             </nav>
         </header>
 
         <div id="second_header">
-        <h1 id="titre">Trouvez un hébergement pour des vacances de rêve </h1>
-        <p>En plein centre ville ou en pleine nature</p> </div>
+            <h1 id="titre">Trouvez un hébergement pour des vacances de rêve </h1>
+            <p>En plein centre ville ou en pleine nature</p>
+        </div>
 
-
+        <!-- Recherche -->
         <section class="recherche">
             <form method="post" action="traitement.php">
                 <div class="loca">
                     <i class="fas fa-map-marker-alt fa-2x" style="background-color: rgb(231, 231, 231);"
                         id="localisation"></i></div>
                 <input type="search" name="search_form" id="search_form" value="Marseille, France" />
-                <div> <input type="Submit" value="Rechercher" name="submit" id="submit"
-                        style="background-color: rgb(0, 101, 252);">
+                <div><button type="submit" class="search-input__button" aria-label="Rechercher">
+                        <span class="search-input__button__text">Rechercher</span>
+                        <i class="fas fa-search search-input__button__icon"></i>
+                    </button>
                 </div>
             </form>
         </section>
-
+        <!-- Filtres -->
         <div class="filtres">
             <span class="filtre_nom">Filtres</span>
             <div id="filtres2">
-            <span class="filtre">
-                <span class="fa-stack icone">
-                    <i class="fas fa-circle fa-stack-2x bleuclair"></i>
-                    <i class="fas fa-money-bill-wave fa-stack-1x fa-inverse bleu"></i>
+                <span class="filtre">
+                    <span class="fa-stack icone">
+                        <i class="fas fa-circle fa-stack-2x bleuclair"></i>
+                        <i class="fas fa-money-bill-wave fa-stack-1x fa-inverse bleu"></i>
+                    </span>
+                    <span class="filtre_texte">Economique </span>
                 </span>
-                <span class="filtre_texte">Economique </span>
-            </span>
-            <span class="filtre">
-                <span class="fa-stack icone">
-                    <i class="fas fa-circle fa-stack-2x bleuclair"></i>
-                    <i class="fas fa-child fa-stack-1x fa-inverse bleu"></i>
+                <span class="filtre">
+                    <span class="fa-stack icone">
+                        <i class="fas fa-circle fa-stack-2x bleuclair"></i>
+                        <i class="fas fa-child fa-stack-1x fa-inverse bleu"></i>
+                    </span>
+                    <span class="filtre_texte">Familial </span>
                 </span>
-                <span class="filtre_texte">Familial </span>
-            </span>
-            <span class="filtre">
-                <span class="fa-stack icone">
-                    <i class="fas fa-circle fa-stack-2x bleuclair"></i>
-                    <i class="fas fa-heart fa-stack-1x fa-inverse bleu"></i>
+                <span class="filtre">
+                    <span class="fa-stack icone">
+                        <i class="fas fa-circle fa-stack-2x bleuclair"></i>
+                        <i class="fas fa-heart fa-stack-1x fa-inverse bleu"></i>
+                    </span>
+                    <span class="filtre_texte">Romantique </span>
                 </span>
-                <span class="filtre_texte">Romantique </span>
-            </span>
-            <span class="filtre">
-                <span class="fa-stack icone">
-                    <i class="fas fa-circle fa-stack-2x bleuclair"></i>
-                    <i class="fas fas fa-dog fa-stack-1x fa-inverse bleu"></i>
+                <span class="filtre">
+                    <span class="fa-stack icone">
+                        <i class="fas fa-circle fa-stack-2x bleuclair"></i>
+                        <i class="fas fas fa-dog fa-stack-1x fa-inverse bleu"></i>
+                    </span>
+                    <span class="filtre_texte">Animaux autorisés </span>
                 </span>
-                <span class="filtre_texte">Animaux autorisés </span>
-            </span>
-        </div>
+            </div>
         </div>
 
         <div id="info">
@@ -93,8 +105,10 @@
 
 
 
-
+        <!-- Hebergements + populaire -->
         <div id="conteneur">
+
+            <!-- Hébergements -->
             <div class="fond_heb">
                 <h2 id="hebergements_titre">Hébergements à Marseille</h2>
                 <div id="hebergement_liste">
@@ -228,7 +242,7 @@
 
 
 
-
+            <!-- Populaire -->
 
             <div class="populaire">
                 <div id="pop_taille">
@@ -337,6 +351,7 @@
             </div>
         </div>
 
+        <!-- Activites -->
 
         <div id="activites">
 
@@ -383,7 +398,7 @@
                         </div>
                 </div>
                 </a>
-                <div>
+                <div id="solo_card2">
                     <a href="#1">
                         <div class="solo_card">
                             <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" class="pic3"
@@ -395,7 +410,7 @@
                         </div>
                 </div>
                 </a>
-                <div class="duo_card">
+                <div id="duo_card2" class="duo_card">
                     <a href="#1">
                         <div class="double_carte2">
                             <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" class="pic5"
@@ -422,7 +437,7 @@
             </div>
 
         </div>
-
+        <!-- Pied de page -->
         <footer>
 
             <div id="propos">
