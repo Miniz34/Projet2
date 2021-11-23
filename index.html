@@ -4,7 +4,8 @@
 
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/0c06550e73.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,8 +23,8 @@
 
             <nav class="nav_head">
 
-                <a href="#Hebergements">Hébergements</a>
-                <a href="#Activites">Activités</a>
+                <a href="#Hebergements" class="lien_nav">Hébergements</a>
+                <a href="#Activites" class="lien_nav">Activités</a>
 
             </nav>
         </header>
@@ -38,7 +39,8 @@
                     <i class="fas fa-map-marker-alt fa-2x" style="background-color: rgb(231, 231, 231);"
                         id="localisation"></i></div>
                 <input type="search" name="search_form" id="search_form" value="Marseille, France" />
-                <div> <input type="Submit" value="Rechercher" name="submit" id="submit" style="background-color: rgb(0, 101, 252);">
+                <div> <input type="Submit" value="Rechercher" name="submit" id="submit"
+                        style="background-color: rgb(0, 101, 252);">
                 </div>
             </form>
         </section>
@@ -226,46 +228,14 @@
 
 
             <div class="populaire">
+                <div id="pop_taille">
+                    <div id="pop_title">
+                        <h2>Les plus populaires</h2>
+                        <a href="#1"><i class="fas fa-chart-line fa-2x"></i></a>
 
-                <div id="pop_title">
-                    <h2>Les plus populaires</h2>
-                    <a href="#1"><i class="fas fa-sort-amount-up-alt fa-2x"></i></a>
-
-                </div>
-
-                <div id="populaire_liste">
-
-
-
-
-
-
-
-
-
-                    <div class="populaires">
-                        <a href=#1>
-                            <div class="pic2">
-
-
-
-                                <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
-                                    class="image2" alt="soleil du matin">
-                                <div class="pop_content">
-                                    <h3>Hôtel Le soleil du matin</h3>
-                                    <p>Nuit à partir de <strong>128€</strong></p>
-                                    <span><i class="fas fa-star" style="color: rgb(0, 101, 252)"></i>
-                                        <i class="fas fa-star" style="color: rgb(0, 101, 252)"></i>
-                                        <i class="fas fa-star" style="color: rgb(0, 101, 252)"></i>
-                                        <i class="fas fa-star" style="color: rgb(0, 101, 252)"></i>
-                                        <i class="fas fa-star" style="color: rgb(0, 101, 252)"></i></span>
-                                </div>
-
-                            </div>
-
-                        </a>
                     </div>
 
+                    <div id="populaire_liste">
 
 
 
@@ -274,59 +244,93 @@
 
 
 
-                    <div class="populaires">
-                        <a href=#1>
-                            <div class="pic2">
+
+                        <div class="populaires">
+                            <a href=#1>
+                                <div class="pic2">
 
 
 
-                                <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
-                                    class="image2" alt="Coeur de l'eau">
-                                <div class="pop_content">
-                                    <h3>Au coeur de l'eau Chambres d'hôtes</h3>
-                                    <p>Nuit à partir de <strong>71€</strong></p>
-                                    <span><i class="fas fa-star" style="color: rgb(0, 101, 252)"></i>
-                                        <i class="fas fa-star" style="color: rgb(0, 101, 252)"></i>
-                                        <i class="fas fa-star" style="color: rgb(0, 101, 252)"></i>
-                                        <i class="fas fa-star" style="color: rgb(0, 101, 252)"></i>
-                                        <i class="fas fa-star" style="color: rgb(218, 216, 216)"></i></span>
+                                    <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                                        class="image2" alt="soleil du matin">
+                                    <div class="pop_content">
+                                        <h3>Hôtel Le soleil du matin</h3>
+                                        <p>Nuit à partir de <strong>128€</strong></p>
+                                        <span><i class="fas fa-star" style="color: rgb(0, 101, 252)"></i>
+                                            <i class="fas fa-star" style="color: rgb(0, 101, 252)"></i>
+                                            <i class="fas fa-star" style="color: rgb(0, 101, 252)"></i>
+                                            <i class="fas fa-star" style="color: rgb(0, 101, 252)"></i>
+                                            <i class="fas fa-star" style="color: rgb(0, 101, 252)"></i></span>
+                                    </div>
+
                                 </div>
 
-                            </div>
-
-                        </a>
-                    </div>
-
-                    <div class="populaires">
-                        <a href=#1>
-                            <div class="pic2">
-
-
-
-                                <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
-                                class="image2" alt="Coeur de l'eau">
-                            <div class="pop_content">
-                                <h3>Hôtel Tout bleu tout Blanc</h3>
-                                <p>Nuit à partir de <strong>71€</strong></p>
-                                <span><i class="fas fa-star" style="color: rgb(0, 101, 252)"></i>
-                                    <i class="fas fa-star" style="color: rgb(0, 101, 252)"></i>
-                                    <i class="fas fa-star" style="color: rgb(0, 101, 252)"></i>
-                                    <i class="fas fa-star" style="color: rgb(0, 101, 252)"></i>
-                                    <i class="fas fa-star" style="color: rgb(218, 216, 216)"></i></span>
-                            </div>
-
+                            </a>
                         </div>
 
-                    </a>
+
+
+
+
+
+
+
+
+
+                        <div class="populaires">
+                            <a href=#1>
+                                <div class="pic2">
+
+
+
+                                    <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                                        class="image2" alt="Coeur de l'eau">
+                                    <div class="pop_content">
+                                        <h3>Au coeur de l'eau Chambres d'hôtes</h3>
+                                        <p>Nuit à partir de <strong>71€</strong></p>
+                                        <span><i class="fas fa-star" style="color: rgb(0, 101, 252)"></i>
+                                            <i class="fas fa-star" style="color: rgb(0, 101, 252)"></i>
+                                            <i class="fas fa-star" style="color: rgb(0, 101, 252)"></i>
+                                            <i class="fas fa-star" style="color: rgb(0, 101, 252)"></i>
+                                            <i class="fas fa-star" style="color: rgb(218, 216, 216)"></i></span>
+                                    </div>
+
+                                </div>
+
+                            </a>
+                        </div>
+
+                        <div class="populaires">
+                            <a href=#1>
+                                <div class="pic2">
+
+
+
+                                    <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                                        class="image2" alt="Coeur de l'eau">
+                                    <div class="pop_content">
+                                        <h3>Hôtel Tout bleu tout Blanc</h3>
+                                        <p>Nuit à partir de <strong>71€</strong></p>
+                                        <span><i class="fas fa-star" style="color: rgb(0, 101, 252)"></i>
+                                            <i class="fas fa-star" style="color: rgb(0, 101, 252)"></i>
+                                            <i class="fas fa-star" style="color: rgb(0, 101, 252)"></i>
+                                            <i class="fas fa-star" style="color: rgb(0, 101, 252)"></i>
+                                            <i class="fas fa-star" style="color: rgb(218, 216, 216)"></i></span>
+                                    </div>
+
+                                </div>
+
+                            </a>
+                        </div>
+
+
+                    </div>
+
+
+
+
+
                 </div>
-
-
-                </div>
-
-
-
-
-
             </div>
         </div>
 
@@ -338,88 +342,82 @@
             <div id="act_title">
                 <h2> Activites à Marseille </h2>
             </div>
-    
+
             <div id="activites_liste" class="act_carte">
-    
-    
-                <div id="solo_card" >
+
+
+                <div id="solo_card">
                     <a href="#1">
                         <div class="solo_card">
                             <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" class="pic3"
-                                
                                 alt="Vieux port">
                             <h3>Vieux Port</h3>
-    
-    
-    
+
+
+
                         </div>
                 </div>
                 </a>
                 <div id="duo_card" class="duo_card">
                     <a href="#1">
-                        <div class="double_carte1" >
+                        <div class="double_carte1">
                             <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" class="pic4"
-                               
                                 alt="Fort de Pomègues">
                             <h3>Fort de Pomègues</h3>
-    
-    
-    
+
+
+
                         </div>
                     </a>
                     <a href="#1">
                         <div class="double_carte2">
                             <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" class="pic5"
-                               
                                 alt="îles de Frioul">
                             <h3>Îles du Frioul</h3>
-    
-    
-    
+
+
+
                         </div>
                 </div>
                 </a>
-                <div >
+                <div>
                     <a href="#1">
-                        <div class="solo_card" >
+                        <div class="solo_card">
                             <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" class="pic3"
-                                
                                 alt="Parc national des Calanques">
                             <h3>Parc National des Calanques</h3>
-    
-    
-    
+
+
+
                         </div>
                 </div>
                 </a>
                 <div class="duo_card">
                     <a href="#1">
-                        <div class="double_carte2" >
+                        <div class="double_carte2">
                             <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" class="pic5"
-                               
                                 alt="Notre-Dame-De-La-Garde">
                             <h3>Notre-Dame-de-la-Garde</h3>
-    
-    
-    
+
+
+
                         </div>
                     </a>
                     <a href="#1">
                         <div class="double_carte1">
                             <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" class="pic4"
-                               
                                 alt="Parc Longchamp">
                             <h3>Parc Longchamp </h3>
-    
-    
-    
+
+
+
                         </div>
-    
-    
+
+
                 </div>
                 </a>
             </div>
-    
+
         </div>
 
         <footer>
@@ -448,9 +446,3 @@
 
 
         </footer>
-
-
-
-
-
-    
