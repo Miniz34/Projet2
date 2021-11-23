@@ -635,6 +635,109 @@ footer p {
 }
 
 
+@media all and (min-width: 768px) and (max-width: 992px) 
+
+{
+  #main_wrapper
+
+  {
+      width: 768px;
+      
+  }
+
+  #main_header
+
+  {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+ 
+  .nav_head
+
+  {
+      
+      width: 60%;
+      padding-top: 20px;
+  }
+
+  nav a:hover
+
+  {
+      border-top: 3px solid rgb(0, 101, 252);
+  }
+
+  .filtres
+
+  {
+      display: flex;
+      width: 100%;
+  }
+
+  #conteneur
+
+  {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .fond_heb
+
+  {
+      order: 2;
+      width: 768px;
+      margin-top: 40px;
+     
+  }
+
+  .populaire
+  {
+      width: 768px;
+  }
+
+  #populaire_liste
+
+  {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      
+  }
+
+  #activites_liste
+
+  {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly
+      
+  }
+
+  #act_title
+
+  {
+        text-align: center;
+        margin-bottom: 50px;
+  }
+
+  #second_header
+
+  {
+      text-align: center;
+ }
+
+ form
+
+ {
+   justify-content: center;   
+ }
+}
+
+
+
+  
+
 @media all and (max-width: 768px)
 
 {
@@ -645,6 +748,7 @@ footer p {
        margin: auto;
     }
 
+
     #main_header
 
     {
@@ -654,19 +758,11 @@ footer p {
         align-items: center;
     }
 
-    #main_logo
-
-    {
-        
-        width: 123px;
-        height: 61px;
-        
-    }
+   
 
     .nav_head
 
     {
-        font-size: 3em;
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -686,11 +782,7 @@ footer p {
     }
 
     
-    h1
-
-    {
-        font-size: 5em;
-    }
+   
 
     form
 
@@ -720,7 +812,7 @@ footer p {
 
     {
         order: 2;
-        width: 100%;
+       
     }
 
     #hebergement_liste
