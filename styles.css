@@ -1,3 +1,7 @@
+/*--CSS final 24.11--*/
+
+/*-- Vérifier carte 2 populaire mobile, peut être borduer icone "recherche mobile --*/
+
 body {
     box-sizing: border-box;
     background-color: rgb(242, 242, 242);
@@ -144,12 +148,10 @@ form .loca {
     width: 100px
 }
 
-input::placeholder
-
-{
+input::placeholder {
     font-weight: 700;
     color: black;
-    
+
 }
 
 
@@ -172,11 +174,10 @@ input::placeholder
 
 
 
-.filtres a:hover
-
-{
+.filtres a:hover {
     box-shadow: 5px 5px 5px black;
 }
+
 .filtre {
     display: inline-block;
     border: 2px solid rgb(231, 231, 231);
@@ -297,7 +298,7 @@ input::placeholder
     margin-bottom: 2%;
     margin-bottom: 15px;
     padding: 3px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.50)
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50)
 }
 
 .pic1 h3 {
@@ -393,10 +394,7 @@ img.image1 {
     margin-bottom: 4%;
     display: flex;
     padding: 3px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.50)
-
-
-
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50)
 }
 
 
@@ -451,8 +449,7 @@ img.image2 {
     border-radius: 20px;
     height: 400px;
     margin-bottom: 24px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.50)
-
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50)
 }
 
 
@@ -465,8 +462,7 @@ img.image2 {
     background-color: white;
     height: 210px;
     margin-bottom: 24px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.50)
-
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50)
 }
 
 .double_carte2 {
@@ -475,8 +471,7 @@ img.image2 {
     background-color: white;
     height: 160px;
     margin-bottom: 24px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.50)
-
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50)
 }
 
 
@@ -631,8 +626,6 @@ footer p {
         flex-direction: row;
         justify-content: space-around;
         flex-wrap: wrap-reverse
-
-
     }
 
     #pop_taille {
@@ -698,28 +691,22 @@ footer p {
         align-items: center;
     }
 
-h1 
-{
-    font-size: 3em;
-}
+    h1 {
+        font-size: 3em;
+    }
 
-p 
-{
-    font-size: 1.6em;
-}
+    p {
+        font-size: 1.6em;
+    }
 
 
-.texte 
+    .texte {
+        font-size: 1.6em;
+    }
 
-{
-    font-size: 1.6em;
-}
-
-.hebergement p
-
-{
-    margin-bottom: 5px;
-}
+    .hebergement p {
+        margin-bottom: 5px;
+    }
 
     .nav_head {
         width: 100%;
@@ -750,6 +737,7 @@ p
 
     .search-input__button {
         width: 50px;
+
     }
 
     form {
@@ -804,7 +792,7 @@ p
         display: flex;
         flex-direction: column;
         width: 100%;
-        
+
 
     }
 
@@ -812,7 +800,7 @@ p
     .pic1 {
         width: 98%;
         height: 155px;
-       
+
     }
 
     #afficherplus {
@@ -833,17 +821,14 @@ p
 
 
 
-    #pop_taille, .populaires
-
-    {
+    #pop_taille,
+    .populaires {
 
         width: 100%;
-        
-    }
-    
-    .pic2 
 
-    {
+    }
+
+    .pic2 {
 
         width: 98%
     }
@@ -860,16 +845,16 @@ p
         width: 100%;
         max-width: 550px;
         align-self: center;
-        
-        
+
+
 
     }
 
     #activites_liste {
         display: flex;
         flex-direction: column;
-        
-        
+
+
     }
 
     .solo_card,
@@ -877,7 +862,7 @@ p
     .double_carte2 {
         height: 170px;
         width: 98%;
-        
+
 
 
     }
@@ -887,8 +872,8 @@ p
     #solo_card2,
     #duo_card2 {
         width: 100%;
-        
-        
+
+
     }
 
 
