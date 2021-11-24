@@ -844,16 +844,25 @@ footer p {
         flex-direction: column;
         margin-left: 5px;
         width: 100%;
+       
+        
+        
+    }
+
+    #act_title
+
+    {
+        width: 100%;
         max-width: 550px;
         align-self: center;
-
-
-
     }
 
     #activites_liste {
         display: flex;
         flex-direction: column;
+        max-width: 550px;
+        align-self: center;
+        align-content: center
 
 
     }
