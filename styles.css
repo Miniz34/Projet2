@@ -486,7 +486,6 @@ img.image2 {
     border-top: rgb(242, 242, 242) 1px solid;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    background-color: green;
     border-width: 0ch;
     height: 360px;
     width: 260px;
@@ -630,8 +629,8 @@ footer p {
         width: 100%;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-wrap: wrap-reverse
 
 
     }
@@ -644,7 +643,7 @@ footer p {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between;
 
         width: 100%;
 
@@ -746,6 +745,7 @@ p
 
     #search_form {
         width: 100%;
+        max-width: 550px;
     }
 
     .search-input__button {
@@ -791,7 +791,9 @@ p
         margin-top: 40px;
         align-content: center;
         background-color: rgb(242, 242, 242);
-        border: 0px
+        border: 0px;
+        max-width: 550px;
+        align-self: center;
     }
 
     #hebergements_titre {
@@ -802,6 +804,7 @@ p
         display: flex;
         flex-direction: column;
         width: 100%;
+        
 
     }
 
@@ -809,6 +812,7 @@ p
     .pic1 {
         width: 98%;
         height: 155px;
+       
     }
 
     #afficherplus {
@@ -818,6 +822,8 @@ p
 
     .populaire {
         width: 98%;
+        max-width: 550px;
+        align-self: center;
 
 
     }
@@ -831,7 +837,8 @@ p
 
     {
 
-        width: 100%
+        width: 100%;
+        
     }
     
     .pic2 
@@ -850,13 +857,19 @@ p
         display: flex;
         flex-direction: column;
         margin-left: 5px;
+        width: 100%;
+        max-width: 550px;
+        align-self: center;
+        
+        
 
     }
 
     #activites_liste {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        
+        
     }
 
     .solo_card,
@@ -864,6 +877,7 @@ p
     .double_carte2 {
         height: 170px;
         width: 98%;
+        
 
 
     }
@@ -873,6 +887,8 @@ p
     #solo_card2,
     #duo_card2 {
         width: 100%;
+        
+        
     }
 
 
