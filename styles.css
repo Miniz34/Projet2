@@ -144,6 +144,14 @@ form .loca {
     width: 100px
 }
 
+input::placeholder
+
+{
+    font-weight: 700;
+    color: black;
+    
+}
+
 
 
 /*-- Filtres --*/
@@ -157,11 +165,12 @@ form .loca {
     justify-content: space-around;
     align-items: center;
     margin-bottom: 20px;
-    font-weight: 700;
     font-size: 15px;
 
 
 }
+
+
 
 .filtres a:hover
 
