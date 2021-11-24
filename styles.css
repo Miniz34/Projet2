@@ -168,6 +168,7 @@ input::placeholder {
     align-items: center;
     margin-bottom: 20px;
     font-size: 15px;
+    font-weight: 700;
 
 
 }
@@ -721,7 +722,7 @@ footer p {
     }
 
     nav a {
-        border-bottom: 3px solid grey;
+        border-bottom: 3px solid rgb(231, 231, 231);
     }
 
 
