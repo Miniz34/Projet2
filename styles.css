@@ -190,7 +190,12 @@ input::placeholder {
     box-shadow: 5px 5px 5px black;
 }
 
-.solo_card:hover {
+.solo_card1:hover {
+    box-shadow: 5px 5px 5px black;
+}
+
+
+.solo_card2:hover {
     box-shadow: 5px 5px 5px black;
 }
 
