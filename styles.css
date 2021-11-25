@@ -230,10 +230,12 @@ input::placeholder {
 
 .fa-inverse.bleu {
     font-size: 15px;
+
 }
 
 .bleu {
-    color: rgb(0, 101, 252)
+    color: rgb(0, 101, 252);
+
 }
 
 .filtre_texte {
@@ -272,7 +274,7 @@ input::placeholder {
 }
 
 .bleu2 {
-    font-size: 9px;
+    font-size: 12px;
     color: blue;
     margin-left: -3px;
 }
@@ -368,10 +370,15 @@ img.image1 {
 
     margin-top: -20px;
     margin-bottom: 20px;
+    font-size: 10px;
 
 }
 
+#afficherplus h2 {
 
+    font-size: 16px;
+
+}
 
 /*-- Populaires --*/
 
@@ -473,9 +480,7 @@ img.image2 {
 
 }
 
-#activites
-
-{
+#activites {
     margin-left: 2%;
     margin-right: 2%;
 }
@@ -486,39 +491,36 @@ img.image2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+
 
 }
 
 
-.solo_card1, .solo_card2 {
+.solo_card1,
+.solo_card2 {
     background-color: white;
     border: rgb(242, 242, 242) solid 1px;
     border-radius: 20px;
-    
-    
+
+
     margin-bottom: 24px;
     box-shadow: 0 1px 9px rgba(0, 0, 0, 0.50);
 }
 
-.solo_card1
-
-{
+.solo_card1 {
     width: 100%;
     height: 405px;
-   
-    
-   
+
+
+
 }
 
-.solo_card2
-
-{
+.solo_card2 {
     width: 100%;
     height: 405px;
-   
-    
-   
+
+
+
 }
 
 
@@ -555,7 +557,7 @@ img.image2 {
     border-width: 0ch;
     height: 360px;
     width: 100%;
-    
+
 
 
 }
@@ -567,7 +569,7 @@ img.image2 {
     width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    
+
 
 
 
@@ -580,24 +582,18 @@ img.image2 {
     border-top-right-radius: 20px;
 
 }
-.duo_card1
 
-{
+.duo_card1 {
     width: 50%;
     margin-left: 2%;
     margin-right: 2%;
-    
-   
-}
-.duo_card2
 
-{
+
+}
+
+.duo_card2 {
     width: 50%;
     margin-left: 2%
-
-   
-    
-   
 }
 
 
@@ -632,23 +628,24 @@ footer {
 footer h2 {
     font-weight: 700;
     font-size: 16px;
-
+    padding-left: 1%;
 }
 
-
 #propos {
-    margin-right: 12%;
-    margin-left: 4%;
-    margin-bottom: 20px;
+    width: 30%;
+    margin-left: 2%;
 }
 
 #nos_hebergements {
-    margin-right: 12%;
-
+    width: 30%;
+    margin-left: 2%;
 }
 
 
-
+#Assistance {
+    width: 30%;
+    margin-left: 2%;
+}
 
 
 footer p {
@@ -764,18 +761,29 @@ footer p {
     }
 
 
+    .solo_card2 {
+        margin-left: -3%;
+        margin-right: -2%;
+    }
+
+
+    .duo_card2 {
+        margin-left: -3%;
+
+
+
+
+
+    }
+
     #act_title {
         text-align: center;
         margin-bottom: 50px;
     }
 
-    #second_header {
-        text-align: center;
-    }
 
-    form {
-        justify-content: center;
-    }
+
+
 }
 
 
@@ -902,6 +910,7 @@ footer p {
         display: flex;
         justify-content: center;
         margin-left: 3%;
+
     }
 
     #conteneur {
@@ -966,13 +975,12 @@ footer p {
 
     #pop_taille {
         width: 100%
-
     }
 
     #pop_title {
         width: 92%;
         margin-left: 4%;
-       
+
     }
 
     .pic2 {
@@ -994,6 +1002,7 @@ footer p {
 
 
 
+
     }
 
     #act_title {
@@ -1007,24 +1016,37 @@ footer p {
         flex-direction: column;
         max-width: 550px;
         align-self: center;
-        align-content: center
+        align-content: center;
+        margin-left: 5%
     }
 
-    .solo_card,
+    .solo_card1,
+    .solo_card2,
     .double_carte1,
     .double_carte2 {
         height: 170px;
-        width: 98%;
+        width: 100%;
+
 
 
 
     }
+
+
+    .solo_card1,
+    .solo_card2,
+    .duo_card1,
+    .duo_card2 {
+        margin-left: -3%;
+
+    }
+
 
     #solo_card,
     #duo_card,
     #solo_card2,
     #duo_card2 {
-        width: 98%
+        width: 96%
     }
 
 
@@ -1050,12 +1072,13 @@ footer p {
     }
 
     footer h2 {
-        margin-left: 2%;
+        margin-left: 6%;
     }
 
+    #propos,
     #nos_hebergements,
     #Assistance {
-        margin-left: 3%
+        margin-left: 6%
     }
 
 
