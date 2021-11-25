@@ -10,11 +10,12 @@ body {
 #main_wrapper {
     font-family: 'Raleway', serif, sans-serif;
     font-size: 10px;
-    width: 1200px;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
     margin: auto;
 }
+
 
 h3 {
     font-size: 1.6em;
@@ -38,7 +39,7 @@ h2 {
 
 
 #main_logo {
-    height: 30px;
+    height: 46px;
     margin-top: 5%;
     margin-bottom: 2%;
     padding-left: 20px
@@ -472,13 +473,20 @@ img.image2 {
 
 }
 
+#activites
+
+{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
 #activites_liste {
     width: 100%;
     padding-bottom: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 
 }
 
@@ -489,7 +497,7 @@ img.image2 {
     border-radius: 20px;
     height: 400px;
     margin-bottom: 24px;
-    box-shadow: 0 1px 9px rgba(0, 0, 0, 0.50)
+    box-shadow: 0 1px 9px rgba(0, 0, 0, 0.50);
 }
 
 
@@ -889,7 +897,7 @@ footer p {
 
 
     .populaire {
-        width: 98%;
+        width: 95%;
         max-width: 550px;
         align-self: center;
         border-radius: 0px;
@@ -905,18 +913,20 @@ footer p {
 
     .populaires {
 
-        width: 100%;
+        width: 95%;
 
 
     }
 
     #pop_taille {
-        width: 90%;
+        width: 100%
 
     }
 
-    #pop_titles {
-        margin: 40;
+    #pop_title {
+        width: 92%;
+        margin-left: 4%;
+       
     }
 
     .pic2 {
@@ -933,7 +943,7 @@ footer p {
         display: flex;
         flex-direction: column;
         margin-left: 5px;
-        width: 90%;
+        width: 93%;
         margin-left: 5%;
 
 
