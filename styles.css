@@ -335,7 +335,7 @@ input::placeholder {
     margin-bottom: 2%;
     margin-bottom: 15px;
     padding: 3px;
-    box-shadow: 0 1px 9px rgba(0, 0, 0, 0.50)
+    box-shadow: 0 1px 8px rgba(78, 78, 78, 0.5);
 }
 
 .pic1 h3 {
@@ -440,7 +440,8 @@ img.image1 {
     margin-bottom: 4%;
     display: flex;
     padding: 3px;
-    box-shadow: 0 1px 9px rgba(0, 0, 0, 0.50)
+    box-shadow: 0 1px 8px rgba(78, 78, 78, 0.5);
+
 }
 
 
@@ -486,16 +487,19 @@ img.image2 {
 }
 
 #activites {
-    margin-left: 2%;
+    margin-left: 0%;
     margin-right: 2%;
+    width: 100%;
+    margin-left: 1%;
 }
 
 #activites_liste {
-    width: 100%;
+    width: 99%;
     padding-bottom: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
 
 
 }
@@ -509,7 +513,7 @@ img.image2 {
 
 
     margin-bottom: 24px;
-    box-shadow: 0 1px 9px rgba(0, 0, 0, 0.50);
+    box-shadow: 0 1px 8px rgba(78, 78, 78, 0.5);
 }
 
 .solo_card1 {
@@ -539,7 +543,7 @@ img.image2 {
     height: 215px;
     width: 100%;
     margin-bottom: 24px;
-    box-shadow: 0 1px 9px rgba(0, 0, 0, 0.50)
+    box-shadow: 0 1px 8px rgba(78, 78, 78, 0.5);
 }
 
 .double_carte2 {
@@ -549,7 +553,7 @@ img.image2 {
     height: 165px;
     width: 100%;
     margin-bottom: 24px;
-    box-shadow: 0 1px 9px rgba(0, 0, 0, 0.50)
+    box-shadow: 0 1px 8px rgba(78, 78, 78, 0.5);
 }
 
 
@@ -622,12 +626,16 @@ img.image2 {
 footer {
     width: 100%;
     background-color: rgb(231, 231, 231);
+
+
+}
+
+#footer_content {
     display: flex;
     height: 130px;
     margin: auto;
     font-family: 'Raleway', serif, sans-serif;
     font-size: 10px;
-
 }
 
 footer h2 {
@@ -725,7 +733,7 @@ footer p {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        flex-wrap: wrap-reverse
+        flex-wrap: wrap-reverse;
     }
 
     #pop_taille {
@@ -738,23 +746,26 @@ footer p {
         flex-direction: column;
 
         width: 100%;
+
     }
 
     #activites_liste {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: center;
+        margin-left: 8%;
 
 
-        width: 100%
+
+        width: 90%
     }
 
     .solo_card,
     .double_carte1,
     .double_carte2 {
 
-        width: 350px;
+        width: 325px;
 
     }
 
@@ -762,24 +773,38 @@ footer p {
     .pic4,
     .pic5 {
 
-        width: 350px;
+        width: 325px;
     }
 
+    .solo_card1 {
+        margin: 0;
+        margin-left: -5%;
+
+
+
+    }
 
     .solo_card2 {
+        margin: 0;
         margin-left: -3%;
-        margin-right: -2%;
+
     }
 
+    .duo_card1 {
+        margin: 0;
+        width: 46%;
+
+
+    }
 
     .duo_card2 {
-        margin-left: -3%;
 
-
-
-
+        margin-left: 1%;
+        width: 46%;
 
     }
+
+
 
     #act_title {
         text-align: center;
@@ -819,12 +844,13 @@ footer p {
 
     h1 {
         font-size: 3em;
+        margin-left: 1%;
 
     }
 
     p {
         font-size: 1.6em;
-        margin-left: 10px;
+
     }
 
 
@@ -891,6 +917,7 @@ footer p {
 
     .filtres {
         margin-top: 20px;
+        margin-left: 3%;
         width: 90%;
         display: flex;
         flex-direction: column;
@@ -913,8 +940,8 @@ footer p {
     #info {
 
         display: flex;
-        justify-content: center;
         margin-left: 3%;
+        margin-right: 3%;
 
     }
 
@@ -957,10 +984,8 @@ footer p {
 
 
     .populaire {
-        width: 95%;
-        max-width: 550px;
-        align-self: center;
-        border-radius: 0px;
+        width: 100%;
+
 
 
     }
@@ -973,24 +998,30 @@ footer p {
 
     .populaires {
 
-        width: 95%;
+        width: 100%;
 
 
     }
 
     #pop_taille {
-        width: 100%
+        width: 92%;
+        max-width: 550px;
+        align-self: center;
+        border-radius: 0px;
+
     }
 
     #pop_title {
-        width: 92%;
+        width: 94%;
         margin-left: 4%;
 
     }
 
     .pic2 {
 
-        width: 98%
+        width: 94%;
+        max-width: 550px;
+        margin-left: 3%;
     }
 
 
@@ -1072,7 +1103,22 @@ footer p {
     footer {
         display: flex;
         flex-direction: column;
+
+
+    }
+
+    footer p {
+        margin-left: 15px;
+    }
+
+    #footer_content {
+        width: 100%;
+        max-width: 600px;
         height: 100%;
+        background-color: yellow;
+        align-self: center;
+        flex-direction: column;
+        background-color: rgb(231, 231, 231);
 
     }
 
@@ -1083,7 +1129,7 @@ footer p {
     #propos,
     #nos_hebergements,
     #Assistance {
-        margin-left: 6%
+        margin-left: 4%
     }
 
 
