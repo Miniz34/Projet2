@@ -187,7 +187,7 @@ input::placeholder {
 }
 
 .pic2:hover {
-    box-shadow: 5px 5px 5px black;
+    transform: scale(1.05)
 }
 
 .solo_card1:hover {
@@ -489,12 +489,12 @@ img.image2 {
 #activites {
     margin-left: 0%;
     margin-right: 2%;
-    width: 100%;
+    width: 98%;
     margin-left: 1%;
 }
 
 #activites_liste {
-    width: 99%;
+    width: 100%;
     padding-bottom: 20px;
     display: flex;
     flex-direction: row;
@@ -733,7 +733,7 @@ footer p {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        flex-wrap: wrap-reverse;
+        flex-wrap: wrap;
     }
 
     #pop_taille {
@@ -754,7 +754,7 @@ footer p {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        margin-left: 8%;
+        margin-left: 6%;
 
 
 
