@@ -1,10 +1,9 @@
-/*--CSS final 24.11--*/
+/*--CSS final 30.11--*/
 
-/*-- Vérifier carte 2 populaire mobile, peut être borduer icone "recherche mobile --*/
 
 body {
     box-sizing: border-box;
-    background-color: rgb(242, 242, 242);
+    background-color: white;
 }
 
 #main_wrapper {
@@ -49,6 +48,13 @@ h2 {
 nav a {
     padding-top: 40px;
 
+}
+
+nav a:hover
+
+{
+    color: rgb(0, 101, 252);
+   
 }
 
 
@@ -107,7 +113,7 @@ form {
 
 form .loca {
     background-color: rgb(231, 231, 231);
-    border-radius: 40px 0px 0px 40px;
+    border-radius: 13px 0px 0px 13px;
     padding-top: 8px;
     width: 35px;
 
@@ -124,8 +130,8 @@ form .loca {
 
 #submit {
     border: solid rgb(0, 101, 252) 1px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
     color: white;
     font-weight: 700;
     font-size: 13px;
@@ -139,8 +145,8 @@ form .loca {
 .search-input__button {
     border: solid rgb(0, 101, 252) 1px;
     background-color: rgb(0, 101, 252);
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
     color: white;
     font-weight: 700;
     font-size: 13px;
@@ -289,7 +295,7 @@ input::placeholder {
 
 
 #conteneur {
-    background-color: rgb(242, 242, 242);
+    background-color: white;
     display: flex;
     justify-content: space-between;
     margin-bottom: 45px;
@@ -327,7 +333,7 @@ input::placeholder {
 
 .pic1 {
     width: 200px;
-
+    border: rgb(231, 231, 231) 1px solid;
     height: 150px;
     margin-right: 5px;
     background-color: white;
@@ -335,7 +341,7 @@ input::placeholder {
     margin-bottom: 2%;
     margin-bottom: 15px;
     padding: 3px;
-    box-shadow: 0 1px 8px rgba(78, 78, 78, 0.5);
+    box-shadow: 0 5px 12px rgba(226, 226, 226, 0.5);
 }
 
 .pic1 h3 {
@@ -435,12 +441,13 @@ img.image1 {
     width: 270px;
     height: 105px;
     margin-right: 5px;
+    border: rgb(231, 231, 231) 1px solid;
     background-color: white;
     border-radius: 10px;
     margin-bottom: 4%;
     display: flex;
     padding: 3px;
-    box-shadow: 0 1px 8px rgba(78, 78, 78, 0.5);
+    box-shadow: 0 5px 12px rgba(226, 226, 226, 0.5);
 
 }
 
@@ -489,8 +496,8 @@ img.image2 {
 #activites {
     margin-left: 0%;
     margin-right: 2%;
-    width: 98%;
-    margin-left: 1%;
+    width: 99%;
+    
 }
 
 #activites_liste {
@@ -513,7 +520,7 @@ img.image2 {
 
 
     margin-bottom: 24px;
-    box-shadow: 0 1px 8px rgba(78, 78, 78, 0.5);
+    box-shadow: 0 5px 12px rgba(226, 226, 226, 0.5);
 }
 
 .solo_card1 {
@@ -543,7 +550,7 @@ img.image2 {
     height: 215px;
     width: 100%;
     margin-bottom: 24px;
-    box-shadow: 0 1px 8px rgba(78, 78, 78, 0.5);
+    box-shadow: 0 5px 12px rgba(226, 226, 226, 0.5);
 }
 
 .double_carte2 {
@@ -553,7 +560,7 @@ img.image2 {
     height: 165px;
     width: 100%;
     margin-bottom: 24px;
-    box-shadow: 0 1px 8px rgba(78, 78, 78, 0.5);
+    box-shadow: 0 5px 12px rgba(226, 226, 226, 0.5);
 }
 
 
@@ -624,8 +631,10 @@ img.image2 {
 /*-- Footer --*/
 
 footer {
-    width: 100%;
+    width: 104%;
     background-color: rgb(231, 231, 231);
+    margin-left: -2%;
+    
 
 
 }
@@ -646,7 +655,7 @@ footer h2 {
 
 #propos {
     width: 30%;
-    margin-left: 2%;
+    margin-left: 30px;
 }
 
 #nos_hebergements {
@@ -721,6 +730,7 @@ footer p {
         order: 2;
         width: 100%;
         margin-top: 40px;
+      
 
     }
 
@@ -842,6 +852,13 @@ footer p {
 
     }
 
+   
+    .search-input__button {
+
+        margin-left: -40px;
+        border-top-left-radius: 13px;
+        border-bottom-left-radius: 13px;
+    }
     h1 {
         font-size: 3em;
         margin-left: 1%;
@@ -860,8 +877,12 @@ footer p {
 
     .hebergement p {
         margin-bottom: 5px;
+        
     }
 
+    .hebergement span 
+
+    
     nav a {
         padding-bottom: 10px;
     }
@@ -933,6 +954,7 @@ footer p {
     .filtre {
         margin-top: 10px;
         font-size: 16px;
+        margin-right: 0px;
 
     }
 
@@ -955,7 +977,7 @@ footer p {
         width: 90%;
         margin-top: 40px;
         align-content: center;
-        background-color: rgb(242, 242, 242);
+        background-color: white;
         border: 0px;
         max-width: 550px;
         align-self: center;
@@ -974,7 +996,8 @@ footer p {
 
     .pic1 {
         width: 98%;
-        height: 155px;
+        height: 160px;
+        
 
     }
 
@@ -985,6 +1008,7 @@ footer p {
 
     .populaire {
         width: 100%;
+        border-radius: 0px;
 
 
 
@@ -999,6 +1023,7 @@ footer p {
     .populaires {
 
         width: 100%;
+       
 
 
     }
@@ -1062,6 +1087,7 @@ footer p {
     .double_carte2 {
         height: 170px;
         width: 100%;
+        border: rgb(231, 231, 231) 1px solid;
 
 
 
@@ -1108,7 +1134,7 @@ footer p {
     }
 
     footer p {
-        margin-left: 15px;
+        margin-left: 8%;
     }
 
     #footer_content {
@@ -1123,7 +1149,7 @@ footer p {
     }
 
     footer h2 {
-        margin-left: 6%;
+        margin-left: 7%;
     }
 
     #propos,
